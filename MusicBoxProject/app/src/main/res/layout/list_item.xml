@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutPerSong"
+    android:id="@+id/text_container">
+
+    <TextView
+        android:id="@+id/song_name"
+        style="@style/TextViewInGridLayoutStyle"
+        android:gravity="center"
+        tools:text="song name"/>
+
+    <TextView
+        android:id="@+id/band_name"
+        style="@style/TextViewInGridLayoutStyle"
+        tools:text="band name"/>
+
+    <TextView
+        android:id="@+id/published_date"
+        style="@style/TextViewInGridLayoutStyle"
+        tools:text="Published Date"/>
+
+    <TextView
+        android:id="@+id/length"
+        style="@style/TextViewInGridLayoutStyle"
+        tools:text="length"/>
+</LinearLayout>

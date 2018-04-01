@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    style="@style/ScrollViewStyle">
+    <LinearLayout
+        style="@style/LinearLayoutStyle">
+
+        <TextView
+            android:id="@+id/IrockMusic"
+            style="@style/TextViewStyle"
+            android:text="@string/bRockMusic"/>
+        <TextView
+            android:id="@+id/ImetalMusic"
+            style="@style/TextViewStyle"
+            android:text="@string/bMetalMusic"/>
+        <TextView
+            android:id="@+id/IhouseMusic"
+            style="@style/TextViewStyle"
+            android:text="@string/bHouseMusic"/>
+        <TextView
+            android:id="@+id/IpopMusic"
+            style="@style/TextViewStyle"
+            android:text="@string/bPopMusic"/>
+    </LinearLayout>
+</ScrollView>

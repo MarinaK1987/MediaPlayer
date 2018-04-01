@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MusicBoxProject</string>
+    <!--  Music Types -->
+    <string name="bClassicMusic">Classic Music</string>
+    <string name="bRockMusic">Rock Music</string>
+    <string name="bMetalMusic">Metal Music</string>
+    <string name="bPopMusic">Pop Music</string>
+    <string name="bHipHopMusic">Hip Hop Music</string>
+    <string name="bHouseMusic">House Music</string>
+</resources>
